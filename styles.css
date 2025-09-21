@@ -1,0 +1,96 @@
+html {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #363636;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+a, a:visited {
+  color: #418141;
+}
+
+iframe {
+  border: 1px solid #888888;
+}
+
+img.portrait {
+  max-width: 75%;
+  height: auto;
+  padding: 0.25em;
+  background-color: white;
+  border: 2px solid #888888;
+  margin: 0 auto;
+
+  width: 375px;
+  color: gray;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.1em;
+  color: #418141;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 0;
+}
+
+hr {
+  border-color: #418141;
+  width: 60%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.celebration-of-life {
+  border: 1px solid rgba(107, 182, 116);
+  background-color: #418141;
+  padding: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 500px;
+    padding: 2em;
+  }
+}
+
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.grid-row {
+    display: flex;
+    width: 100%;
+}
+
+.grid-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    max-width: 25%; /* Set maximum width for a box */
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.grid-box img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
