@@ -1,5 +1,5 @@
 html {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #363636;
 }
 
@@ -11,7 +11,7 @@ html {
 }
 
 a, a:visited {
-  color: #418141;
+  color: #416a81;
 }
 
 iframe {
@@ -23,7 +23,7 @@ img.portrait {
   height: auto;
   padding: 0.25em;
   background-color: white;
-  border: 2px solid #888888;
+  border: 2px solid #b2d1fe;
   margin: 0 auto;
 
   width: 375px;
@@ -37,7 +37,7 @@ p {
 h1 {
   text-align: center;
   margin-bottom: 0.1em;
-  color: #418141;
+  color: #2557c5;
 }
 
 h4 {
@@ -46,15 +46,15 @@ h4 {
 }
 
 hr {
-  border-color: #418141;
+  border-color: #417681;
   width: 60%;
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
 .celebration-of-life {
-  border: 1px solid rgba(107, 182, 116);
-  background-color: #418141;
+  border: 1px solid rgb(97, 115, 216);
+  background-color: #414481;
   padding: 1em;
 }
 
